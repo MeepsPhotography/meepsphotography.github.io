@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <meta name = "description" content = "Site">
+    <!-- normalize.min.css (minified) v8.0.1 (hosted via Cloudflare's CDN) | MIT License | github.com/necolas/normalize.css -->
+    <!--suppress JSUnresolvedLibraryURL -->
+    <link rel = "stylesheet" type = "text/css"
+          href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity = "sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin = "anonymous" referrerpolicy = "no-referrer" />
+    <link rel = "stylesheet" href = "./static/css/style.css">
+    <script src = "./static/js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery">
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="image-gallery" class="images"></main>
+    <footer id="gallery-pagination">
+        <button id="btnPrevious">&larr; <span class="sr-only">Previous</span></button>
+        <div>
+        <div id="gallery-dots"></div>
+        <span id="page"></span>
+        </div>
+        <button id="btnNext"><span class="sr-only">Next </span>&rarr;</button>
+        <p>&copy; 2024 (name) </p>
+    </footer>
+    </div>
+</body>
+</html>
